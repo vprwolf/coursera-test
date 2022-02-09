@@ -1,0 +1,118 @@
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+}
+
+/*header*/
+
+#header-nav {
+	background-color: yellow;
+	border-radius: 0;
+	border-bottom: 2px solid orange;
+}
+
+.navbar-brand{
+	height: 80px;
+
+}
+
+.navbar-brand h1{
+	color: black;
+	font-family: 'Balsamiq Sans', cursive;
+	font-weight: bold;
+	margin-top:0;
+	margin-bottom:0;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+#nav-list a{
+	color:brown;
+	text-align: center;
+	background: lightyellow;
+	margin-top:4px;
+}
+
+#nav-list a:hover {
+	background: brown;
+	color:white;
+}
+
+
+#nav-list li{
+	font-family: 'Balsamiq Sans', cursive;
+	font-size: 16px;
+	color: black;
+}
+
+.navbar-header button.navbar-toggle{
+	clear: both;
+	margin-top:-60px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 1px solid black;
+}
+
+
+/*header*/
+
+/*contents*/
+h2{
+	text-align:center;
+	font-family: 'Balsamiq Sans', cursive;
+	font-weight: bold;
+	margin-top:0;
+}
+
+div.section{
+	background-color: lightblue;
+	border:1px solid black;
+	padding: 3px 10px 10px 10px;
+	margin-top: 20px;
+	position: relative;
+}
+
+.section p{
+	font-family: 'Balsamiq Sans', cursive;
+	font-size: 14px;
+}
+
+
+span {
+	display: block; /*스팬은 인라인이어서 센터 안먹음. 그래서 블록디스플레이 걸어야함*/
+	text-align: center;
+	font-family: 'Balsamiq Sans', cursive;
+	font-weight: bold;
+	font-size: 24px;
+	margin-bottom:5px;
+}
+
+
+/*반응형*/
+@media (min-width: 1200px){
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+
+}
+
+@media (max-width: 991px){
+
+	div.section{
+	background-color: lightblue;
+	border:1px solid black;
+	padding: 3px 10px 10px 10px;
+	margin-top: 20px ;
+	margin-right: 70px;
+	margin-left: 70px;
+	position: relative;
+	}
+
+}
+
+
